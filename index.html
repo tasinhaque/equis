@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Equis - BMI Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <label for="weight">Weight (Kg)</label>
+            <input type="number" id="weight" placeholder="e.g. 50" required min="10">
+            <label for="height">Height (Cm)</label>
+            <input type="number" id="height" placeholder="e.g. 163" required min="10">
+            <button id="btn">Calculate</button>
+        </form>
+        <div class="bmi" id="bmi"></div>
+        <div class="category" id="category"></div>
+        <div class="message" id="message"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
